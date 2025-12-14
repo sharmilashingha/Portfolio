@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharmila Portfolio - Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="site-header">
+<div class="brand">
+<img src="image/logo.jpg" <img style="height: 80px;
+    width: 150px;border-radius: 50%" alt="Sharmila" class="logo">
+</div>
+<nav class="main-nav">
+<a href="index.html" class="active">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html" class="active">Gallery</a>
+<a href="faq.html" class="active">FAQ</a>
+<a href="contact.html" class="btn-cta">Contact me</a>
+</nav>
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero">
+<div class="hero-left">
+<p class="welcome">Welcome to my sites</p>
+<h1 class="name">Hi! I’m Sharmila Singha Roy</h1>
+<p class="role">I’m a Software Developer</p>
+
+
+<div class="cta-row">
+<a href="contact.html" class="btn-primary">Hire me!</a>
+<a href="about.html" class="btn-outline">See My Project</a>
+      </div>
+<!-- Social Icons -->
+            <div class="social-box">
+                <img src="image/whatsapp.png" alt="whatsapp"width="40"height="40"></a>
+                <img src="image/instagram.png" alt="instagram"width="40"height="40"></a>
+                <img src="image/twitter.png" alt="twitter"width="40"height="40"></a>
+                <img src="image/behance (2).png"alt="behance"width="40"height="40"></a>
+            </div>
+        </div>
+
+<div class="hero-right">
+<div class="portrait-ring">
+<img src="image/jpg.jpg" alt="jpg.jpg" />
+</div>
+</div>
+</section> <br> <br> <hr>
+  <!--about section-->
+  <main class="page page-about">
+<section class="about-intro">
+<h1>About Me</h1>
+<p>I am a passionate software developer with experience in building responsive web applications. I enjoy problem solving and learning new technologies.</p>
+</section> <br>
+
+
+<section class="skills">
+<h2>Skills</h2>
+<ul class="skill-list">
+<li>HTML / CSS / JavaScript</li>
+<li>React / Vue (basic)</li>
+<li>Node.js / Express</li>
+<li>Git / GitHub</li>
+</ul>
+</section> <br>
+
+
+<section class="education">
+<h2>Education & Experience</h2> <br>
+<p>BSc in CSE (Manarat International University) — Internship at Nitol Niloy Group Tech — Freelance projects</p>
+</section>
+</main> <hr> <br> <br>
+<!-- Gallery Section -->
+<main class="page page-gallery">
+<section class="gallery-intro">
+<h1>My Gallery</h1>
+<p>Here are some of my projects and works. Click on an image to view it larger.</p>
+</section>
+
+<section class="gallery-container">
+  <div class="gallery-item">
+    <img src="image/image2.jpg" alt="Project 1">
+  </div>
+  <div class="gallery-item">
+    <img src="image/web.jpg" alt="Project 2">
+  </div>
+  <div class="gallery-item">
+    <img src="image/images (1).jpeg" alt="Project 3">
+  </div>
+</section>
+</main><hr>
+<!-- FAQ Section -->
+<main class="page page-faq">
+    <h1  style="text-align: center;">Frequently Asked Questions</h1>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">What services do you provide?</h3>
+        <p style="text-align: center;">I provide web design and software development services.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">Which technologies do you use?</h3>
+        <p style="text-align: center;">HTML, CSS, JavaScript, and basic React.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">Do you take freelance projects?</h3>
+        <p style="text-align: center;">Yes, I am available for freelance work.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">How can I contact you?</h3>
+        <p style="text-align: center;">You can contact me through the contact page.</p>
+    </div>
+</main><hr>
+<!--contact section-->
+ <main class="page page-contact">
+<h1 style="text-align: center;">Contact Me</h1>
+<p style="text-align: center;">If you want to work with me or have any questions, feel free to message me.</p>
+
+
+<section style=" margin-left: 350px;" class="contact">
+    <form class="contact-form">
+<label>Your Name</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email" required>
+
+
+<label>Message</label>
+<textarea rows="6" placeholder="Write your message" required></textarea>
+
+
+<button type="submit" class="btn-primary">Send Message</button>
+</form>
+</section>
+</main> <hr>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+<p>&copy; <span id="year"></span> Sharmila Singha Roy</p>
+</footer>
+
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+</body>
+</html>

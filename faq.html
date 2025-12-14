@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharmila Portfolio - FAQ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+    <div class="brand">
+        <img src="image/logo.jpg" class="logo" alt="Sharmila">
+    </div>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="faq.html" class="active">FAQ</a>
+        <a href="contact.html" class="btn-cta">Contact me</a>
+    </nav>
+</header>
+
+<!-- FAQ Section -->
+<main class="page page-faq">
+    <h1  style="text-align: center;">Frequently Asked Questions</h1>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">What services do you provide?</h3>
+        <p style="text-align: center;">I provide web design and software development services.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">Which technologies do you use?</h3>
+        <p style="text-align: center;">HTML, CSS, JavaScript, and basic React.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">Do you take freelance projects?</h3>
+        <p style="text-align: center;">Yes, I am available for freelance work.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3 style="text-align: center;">How can I contact you?</h3>
+        <p style="text-align: center;">You can contact me through the contact page.</p>
+    </div>
+</main>
+<!-- Footer -->
+<footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sharmila Singha Roy</p>
+</footer>
+
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
+</body>
+</html>

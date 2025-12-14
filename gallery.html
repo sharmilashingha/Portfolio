@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharmila Portfolio - Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+<div class="brand">
+<img src="image/logo.jpg" style="height: 80px; width: 150px; border-radius: 50%;" alt="Sharmila" class="logo">
+</div>
+<nav class="main-nav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html" class="active">Gallery</a>
+<a href="faq.html" class="active">FAQ</a>
+<a href="contact.html" class="btn-cta">Contact me</a>
+</nav>
+</header>
+
+<!-- Gallery Section -->
+<main class="page page-gallery">
+<section class="gallery-intro">
+<h1>My Gallery</h1>
+<p>Here are some of my projects and works. Click on an image to view it larger.</p>
+</section>
+
+<section class="gallery-container">
+  <div class="gallery-item">
+    <img src="image/image2.jpg" alt="Project 1">
+  </div>
+  <div class="gallery-item">
+    <img src="image/web.jpg" alt="Project 2">
+  </div>
+  <div class="gallery-item">
+    <img src="image/images (1).jpeg" alt="Project 3">
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+<p>&copy; <span id="year"></span> Sharmila Singha Roy</p>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

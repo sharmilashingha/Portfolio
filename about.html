@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About - Sharmila</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="brand">
+<img src="image/logo.jpg" <img style="height: 80px;
+    width: 150px;border-radius: 50%" alt="Sharmila" class="logo">
+</div>
+<nav class="main-nav">
+<a href="index.html">Home</a>
+<a href="about.html" class="active">About</a>
+<a href="gallery.html" class="active">Gallery</a>
+<a href="faq.html" class="active">FAQ</a>
+<a href="contact.html" class="btn-cta">Contact me</a>
+</nav>
+</header>
+
+
+<main class="page page-about">
+<section class="about-intro">
+<h1>About Me</h1>
+<p>I am a passionate software developer with experience in building responsive web applications. I enjoy problem solving and learning new technologies.</p>
+</section> <br>
+
+
+<section class="skills">
+<h2>Skills</h2> <br>
+<ul class="skill-list">
+<li>HTML / CSS / JavaScript</li>
+<li>React / Vue (basic)</li>
+<li>Node.js / Express</li>
+<li>Git / GitHub</li>
+</ul>
+</section> <br>
+
+
+<section class="education">
+<h2>Education & Experience</h2> <br>
+<p>BSc in CSE (Manarat International University) — Internship at Nitol Niloy Group Tech — Freelance projects</p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<p>&copy; <span id="year2"></span> Sharmila Singha Roy</p>
+</footer>
+
+
+<script>
+document.getElementById('year2').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
